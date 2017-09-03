@@ -10,4 +10,8 @@ class Person {
       to: this.email
     });
   }
+
+  sendNotification() {
+    this.api.sendNotification({msg: 'Hello'});
+  }
 }
