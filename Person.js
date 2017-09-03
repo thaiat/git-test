@@ -7,7 +7,8 @@ class Person {
   sendMail() {
     this.api.sendMail({
       body: 'Hello',
-      to: this.email
+      to: this.email,
+      attachement : null
     });
   }
 
