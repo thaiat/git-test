@@ -24,5 +24,16 @@ class Person {
     console.log('your age is', 0);
   }
 
+  addMethod1() {
+    console.log('method 1');
+  }
+
+  addMethod2() {
+    console.log('method 2');
+  }
+
+  addMethod3() {
+    console.log('method 3');
+  }
 }
 
