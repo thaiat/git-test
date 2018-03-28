@@ -35,5 +35,9 @@ class Person {
   addMethod3() {
     console.log('method 3');
   }
+
+  addMethod4() {
+    console.log('method 3');
+  }
 }
 
