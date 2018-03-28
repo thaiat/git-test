@@ -15,4 +15,7 @@ class Person {
   sendNotification() {
     this.api.sendNotification({msg: 'Hello'});
   }
+  callPhone() {
+    console.log('call phone');
+  }
 }
