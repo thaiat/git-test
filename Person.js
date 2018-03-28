@@ -15,4 +15,8 @@ class Person {
   sendNotification() {
     this.api.sendNotification({msg: 'Hello'});
   }
+  
+  calculateAge() {
+    console.log('your age is', 0);
+  }
 }
